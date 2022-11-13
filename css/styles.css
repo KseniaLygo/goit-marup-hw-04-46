@@ -36,7 +36,8 @@ body {
     justify-content: center;
     border: 1px solid #AFB1B8;
 border-radius: 4px;
-color :#AFB1B8
+color :#AFB1B8;
+align-items: center;
 }
 
 
@@ -45,18 +46,25 @@ color :#AFB1B8
     border-color: #2196F3;
 }
 
-
-.socials-icon1 {
-    margin-top: 16px;
+.social-link2 {
+    display: flex;
     width: 44px;
     height: 44px;
-    fill:#AFB1B8 ;
-    background-position:#EEEEEE ;
-    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 }
+.socials-icon1 {
+    margin-top: 16px;
+    width: 20px;
+    height: 20px;
+    fill:#AFB1B8 ;
+    background-position:#EEEEEE ;    
+}
+
 .socials-icon1:hover{
     fill: #FFFFFF;
     background-color: #2196F3;
+    
 }
 .socials-icon5 {
     margin-top: 20px;
@@ -79,10 +87,21 @@ color :#AFB1B8
 .socials-icon2:hover {
     fill: var(--blueskin);
 }
-.socials-icon:hover {
+.header-h:hover,
+.header-h:focus {
     fill: var(--blueskin);
 }
-
+.socials-icon {
+   margin-right: 10px;
+   fill: #757575;
+}
+.nav2:focus {
+    fill: var(--blueskin);
+}
+.socials-icon:hover,
+.socials-icon:focus {
+    fill: var(--blueskin);  
+}
 
 .border {
     border-bottom: 1px solid #ECECEC;  
@@ -138,7 +157,7 @@ color :#AFB1B8
     padding: 32px 0;
 }
 .header-h {
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .nav2 {
@@ -151,7 +170,7 @@ color :#AFB1B8
 .menu2 {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .nav3 {
@@ -189,10 +208,10 @@ color :#AFB1B8
     margin-bottom: 30px;
 }
 .socials-icon3 {
-    --color2:#212121;
-    --color1:#2196F3;
-    
+    --color1:#212121;
+    --color2:#2196f3;  
 }
+
     .section {
         padding-top: 94px;
         padding-bottom: 94px;

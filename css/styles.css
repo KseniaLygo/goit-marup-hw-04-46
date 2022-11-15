@@ -110,8 +110,14 @@ align-items: center;
    fill: #757575;
 }
 
-.socials-icon:hover,
-.socials-icon:focus {
+
+
+.header-h:hover .socials-icon,
+.header-h:focus .socials-icon {
+    fill: var(--blueskin);  
+}
+.header-h1:hover,
+.header-h1:focus {
     fill: var(--blueskin);  
 }
 
@@ -199,7 +205,7 @@ align-items: center;
     background-color: var(--blek);
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: linear-gradient(to bottom, transparent 0%,  rgba(0,0,0,0.9) 100%);
+    
     
     }
 .hero-title {
@@ -314,7 +320,7 @@ align-items: center;
     
 
 .hero1 {
-    background-image: url(../images/We/Img.png);
+    background-image: linear-gradient(to right, rgba(47, 48, 59, 0.4), rgba(47,48,58,0.4)), url(../images/We/Img.png);
 }
 
 
@@ -436,7 +442,8 @@ padding: 20px 24px;
 border: 1px solid #EEEEEE;;
 border-top: none;
 }
-.text11: :hover {
+.text11:hover,
+.text11:focus {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -491,7 +498,7 @@ box-shadow: 0 0 0 3px var(--blueskin);
     max-width: 696px;
     margin: 0 auto;
 }
-button:focus,
+button:hover,
 button:focus
  {
 box-shadow: 0 0 0 3px var(--blueskin);

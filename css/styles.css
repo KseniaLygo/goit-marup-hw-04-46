@@ -242,11 +242,7 @@ align-items: center;
         gap: 30px; 
     }
 
-    .nav4 {
-        margin-bottom: 30px;
-        
-        
-    }
+    
     .socials-icon1{
         color: #2196F3;  
     }
@@ -351,7 +347,8 @@ a:focus {
 }
 
 .we5 {
-    margin-left: 32px;
+    justify-content: center;
+    margin-bottom: 30px;
     gap: 10px;
     
 }
@@ -369,6 +366,11 @@ a:focus {
     --color1: #2196f3;
 }
 .find2 {
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
     color: #F5F4FA;
 }
 .content {
